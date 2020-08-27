@@ -59,6 +59,15 @@ h1, h2, h3, h4, h5,
   opacity: 0;
   visibility: hidden; }
 
+.card {
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 14px -2px rgb(231, 220, 221);
+    -moz-box-shadow: 10px 10px 14px -2px rgb(231, 220, 221);
+    box-shadow: 10px 10px 14px -2px rgb(231, 220, 221);
+    border: 1px solid red;
+    margin: 20px;
+}
+
 
 .site-section {
   padding: 2.5em 0; }
@@ -1130,7 +1139,7 @@ h1, h2, h3, h4, h5,
         margin: 2px 5px;
         background: white; }
       .hero-slide .owl-dots .owl-dot.active > span {
-        background: #ff5e15; }
+        background: #1000ff; }
 
 .owl-slide-3, .owl-slide {
   position: relative; }
