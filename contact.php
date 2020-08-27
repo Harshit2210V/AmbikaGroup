@@ -1,8 +1,33 @@
+<?php
+
+$msg ="";
+
+if (isset($_REQUEST['submit'])) {
+
+	if (($_REQUEST['fname'] == "") || ($_REQUEST['lname'] == "") || ($_REQUEST['email'] == "") || ($_REQUEST['mono'] == "") || ($_REQUEST['message'] == "")){
+		$msg = "fill all fileds";
+	}
+	else{
+		$fname = $_REQUEST['fname'];
+		$lname = $_REQUEST['lname'];
+		$email = $_REQUEST['email'];
+		$mono = $_REQUEST['mono'];
+		$message = $_REQUEST['message'];
+
+		$mailTo = "harshmavani76@gmail.com";
+		$headers ="From: ". $email;
+		$txt ="you have received an email from ". $fname. $lname.".\n". "$mono". "$message";
+		mail($mailTo, $fname, $txt ,$headers); 
+		$msg = "sent Successfully";
+	}
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from colorlib.com/preview/theme/engineers/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:52 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	<title>Ambika | Contact</title>
 	<meta charset="utf-8">
@@ -23,41 +48,25 @@
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	<div class="site-wrap">
-<div class="site-mobile-menu site-navbar-target">
-<div class="site-mobile-menu-header">
-<div class="site-mobile-menu-close mt-3">
-<span class="icon-close2 js-menu-toggle"></span>
-</div>
-</div>
-<div class="site-mobile-menu-body"><ul class="site-nav-wrap">
-<li>
-<a href="index-2.html" class="nav-link text-left">Home</a>
-</li>
-<li>
-<a href="about.html" class="nav-link text-left">About Us</a>
- </li>
-<li>
-<a href="products.html" class="nav-link text-left">Our Projects</a>
-</li>
-<li>
-<!-- <a href="testimonials.html" class="nav-link text-left">Testimonials</a> -->
-</li>
-<li  class="active">
-<a href="contact.html" class="nav-link text-left">Contact</a>
-</li>
-</div>
-</div>
+		<div class="site-mobile-menu site-navbar-target">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div>
 		<div class="header-top bg-light">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-6 col-lg-3">
-						<a href="index-2.html">
+						<a href="index.php">
 							<img src="images/logo.png" alt="Image" class="img-fluid" width="42%;">
 						</a>
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-placeholder text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -69,7 +78,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-call text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -80,11 +89,11 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-email text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
-								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color: rgb(146, 140, 140);">info@ambikagroup.co.in</a></span>
+								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color:black;">info@ambikagroup.co.in</a></span>
 								<span class="caption-text" style="color: rgb(146, 140, 140);">Email Address</span>
 							</div>
 						</div>
@@ -99,31 +108,28 @@
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
 							<nav class="site-navigation position-relative text-right" role="navigation">
-								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block" style="padding-left: 600px!important; margin-right: 0!important;">
+								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
 									<li>
-										<a href="index-2.html" class="nav-link text-left">Home</a>
+										<a href="index.php" class="nav-link text-left">Home</a>
 									</li>
-									<li>
-										<a href="about.html" class="nav-link text-left">About Us</a>
-									</li>
-									<li>
-										<a href="products.html" class="nav-link text-left">Our Projects</a>
+									<li >
+										<a href="about.php" class="nav-link text-left">About Us</a>
 									</li>
 									<li>
-										<!-- <a href="testimonials.html" class="nav-link text-left">Testimonials</a> -->
+										<a href="products.php" class="nav-link text-left">Our Products</a>
 									</li>
-									<!-- <li><a href="blog.html" class="nav-link text-left">Blog</a></li> -->
-									<li class="active">
-										<a href="contact.html" class="nav-link text-left">Contact</a>
+
+									<li  class="active">
+										<a href="contact.php" class="nav-link text-left">Contact</a>
 									</li>
-								</ul> </ul>
+								</ul>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/contact.jpg');">
+		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/contact.jpg'); opacity: 0.9;">
 			<div class="container">
 				<div class="row align-items-center text-center border">
 					<div class="col-lg-12 mt-5" data-aos="fade-up">
@@ -139,38 +145,41 @@
 		</div>
 		<div class="site-section">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-6 form-group">
-						<label for="fname">First Name</label>
-						<input type="text" id="fname" class="form-control form-control-lg">
+				<form  method="post">
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name="fname" class="form-control form-control-lg">
+						</div>
+						<div class="col-md-6 form-group">
+							<label for="lname">Last Name</label>
+							<input type="text" id="lname" name="lname" class="form-control form-control-lg">
+						</div>
 					</div>
-					<div class="col-md-6 form-group">
-						<label for="lname">Last Name</label>
-						<input type="text" id="lname" class="form-control form-control-lg">
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<label for="eaddress">Email Address</label>
+							<input type="text" id="emial" name="email"  class="form-control form-control-lg">
+						</div>
+						<div class="col-md-6 form-group">
+							<label for="tel">Mobile Number</label>
+							<input type="text" id="mono" name="mono" class="form-control form-control-lg">
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 form-group">
-						<label for="eaddress">Email Address</label>
-						<input type="text" id="eaddress" class="form-control form-control-lg">
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+						</div>
 					</div>
-					<div class="col-md-6 form-group">
-						<label for="tel">Tel. Number</label>
-						<input type="text" id="tel" class="form-control form-control-lg">
+					<div class="row">
+						<div class="col-12">
+							<input type="submit" value="Send Message" class="btn btn-primary rounded-0 px-3 px-5" style="    background-color: #1e4f94;
+							border-color: #1e4f94;">
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 form-group">
-						<label for="message">Message</label>
-						<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<input type="submit" value="Send Message" class="btn btn-primary rounded-0 px-3 px-5" style="    background-color: #1e4f94;
-						border-color: #1e4f94;">
-					</div>
-				</div>
+					<?php echo $msg ; ?>
+				</form>
 			</div>
 		</div>
 		<div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
@@ -212,7 +221,7 @@
 							<!-- <li><a href="#"></a></li> -->
 							<li><a href="#" style="color: #908888;font-weight:500;">Our Team</a></li>
 							<li><a href="#" style="color: #908888;font-weight:500;">Careers</a></li>
-							<li><a href="#" style="color: #908888;font-weight:500;">Projects</a></li>
+							<li><a href="#" style="color: #908888;font-weight:500;">Products</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3" style="text-align: center;">
@@ -272,5 +281,4 @@
 	</script>
 	<script src="js/rocket-loader.min.js" data-cf-settings="c1be20718ea6817ff996554e-|49" defer=""></script></body>
 
-	<!-- Mirrored from colorlib.com/preview/theme/engineers/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:52 GMT -->
 	</html>

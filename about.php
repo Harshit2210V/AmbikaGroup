@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from colorlib.com/preview/theme/engineers/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:46 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	<title>Ambika | About Us</title>
 	<meta charset="utf-8">
@@ -23,41 +22,25 @@
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	<div class="site-wrap">
-		<div class="site-mobile-menu site-navbar-target">
+	<div class="site-mobile-menu site-navbar-target">
 			<div class="site-mobile-menu-header">
 				<div class="site-mobile-menu-close mt-3">
 					<span class="icon-close2 js-menu-toggle"></span>
 				</div>
 			</div>
-			<div class="site-mobile-menu-body"><ul class="site-nav-wrap">
-				<li>
-					<a href="index.html" class="nav-link text-left">Home</a>
-				</li>
-				<li class="active">
-					<a href="about.html" class="nav-link text-left">About Us</a>
-				</li>
-				<li>
-					<a href="products.html" class="nav-link text-left">Our Projects</a>
-				</li>
-				<li>
-					<!-- <a href="testimonials.html" class="nav-link text-left">Testimonials</a> -->
-				</li>
-				<li>
-					<a href="contact.html" class="nav-link text-left">Contact</a>
-				</li>
-			</div>
+			<div class="site-mobile-menu-body"></div>
 		</div>
 		<div class="header-top bg-light">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-6 col-lg-3">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="images/logo.png" alt="Image" class="img-fluid" width="42%;">
 						</a>
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-placeholder text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -69,7 +52,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-call text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -80,11 +63,11 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-email text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
-								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color: rgb(146, 140, 140);">info@ambikagroup.co.in</a></span>
+								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color:black;">info@ambikagroup.co.in</a></span>
 								<span class="caption-text" style="color: rgb(146, 140, 140);">Email Address</span>
 							</div>
 						</div>
@@ -99,37 +82,34 @@
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
 							<nav class="site-navigation position-relative text-right" role="navigation">
-								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block" style="padding-left: 600px!important; margin-right: 0!important;">
+								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
 									<li>
-										<a href="index.html" class="nav-link text-left">Home</a>
+										<a href="index.php" class="nav-link text-left">Home</a>
 									</li>
-									<li class="active">
-										<a href="about.html" class="nav-link text-left">About Us</a>
-									</li>
-									<li>
-										<a href="products.html" class="nav-link text-left">Our Products</a>
+									<li  class="active">
+										<a href="about.php" class="nav-link text-left">About Us</a>
 									</li>
 									<li>
-										<!-- <a href="testimonials.html" class="nav-link text-left">Testimonials</a> -->
+										<a href="products.php" class="nav-link text-left">Our Products</a>
 									</li>
-									<!-- <li><a href="blog.html" class="nav-link text-left">Blog</a></li> -->
+
 									<li>
-										<a href="contact.html" class="nav-link text-left">Contact</a>
+										<a href="contact.php" class="nav-link text-left">Contact</a>
 									</li>
-								</ul> </ul>
+								</ul>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/abouts.jpg');">
+		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/abouts.jpg'); opacity: 0.9;">
 			<div class="container">
 				<div class="row align-items-center text-center border">
 					<div class="col-lg-12 mt-5" data-aos="fade-up">
 						<h1>About Us</h1>
 						<p class="text-white text-center">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 							<span class="mx-2">/</span>
 							<span>About</span>
 						</p>
@@ -195,7 +175,7 @@
 							<div class="card-body">
 								<div>
 									<h3>Trade Capacity</h3>
-
+<br>
 									<p style="font-size: 18px; color: red; font-weight: 700;">Trade Info</p>
 								</div>
 								<br>
@@ -234,7 +214,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-md-4">
 						<div class="card">
 							<div class="card-body">
 								<h3>Product Capacity</h3>
@@ -452,22 +432,6 @@
 				</div>
 			</div>
 
-<!-- <div class="py-5 bg-primary block-4">
-<div class="container">
-<div class="row align-items-center">
-<div class="col-lg-6">
-<h3 class="text-white">Subscribe To Newsletter</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
-</div>
-<div class="col-lg-6">
-<form action="#" class="form-subscribe d-flex">
-<input type="text" class="form-control form-control-lg">
-<input type="submit" class="btn btn-secondary px-4" value="Subcribe">
-</form>
-</div>
-</div>
-</div>
-</div> -->
 <div class="footer">
 	<div class="container">
 		<div class="row">
@@ -481,10 +445,9 @@
 				<ul class="list-unstyled">
 					<li><a href="#" style="color: #908888;font-weight:500;">About</a></li>
 					<li><a href="#" style="color: #908888;font-weight:500;">News</a></li>
-					<!-- <li><a href="#"></a></li> -->
 					<li><a href="#" style="color: #908888;font-weight:500;">Our Team</a></li>
 					<li><a href="#" style="color: #908888;font-weight:500;">Careers</a></li>
-					<li><a href="#" style="color: #908888;font-weight:500;">Projects</a></li>
+					<li><a href="#" style="color: #908888;font-weight:500;">Products</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-3" style="text-align: center;">
@@ -545,5 +508,4 @@
 </script>
 <script src="js/rocket-loader.min.js" data-cf-settings="af2f6bc1a5827beac585443a-|49" defer=""></script></body>
 
-<!-- Mirrored from colorlib.com/preview/theme/engineers/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:50 GMT -->
 </html>

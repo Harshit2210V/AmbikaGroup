@@ -1,8 +1,7 @@
 	<!DOCTYPE html>
 	<html lang="en">
 
-	<!-- Mirrored from colorlib.com/preview/theme/engineers/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:46 GMT -->
-	<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<head>
 		<title>Ambika | PRoduct Single</title>
 		<meta charset="utf-8">
@@ -24,35 +23,17 @@
 	</head>
 	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 		<div class="site-wrap">
-			<div class="site-mobile-menu site-navbar-target">
-<div class="site-mobile-menu-header">
-<div class="site-mobile-menu-close mt-3">
-<span class="icon-close2 js-menu-toggle"></span>
-</div>
-</div>
-<div class="site-mobile-menu-body"><ul class="site-nav-wrap">
-<li>
-<a href="index.html" class="nav-link text-left">Home</a>
-</li>
-<li class="active">
-<a href="about.html" class="nav-link text-left">About Us</a>
- </li>
-<li>
-<a href="products.html" class="nav-link text-left">Our Projects</a>
-</li>
-<li>
-<!-- <a href="testimonials.html" class="nav-link text-left">Testimonials</a> -->
-</li>
-<!-- <li><a href="blog.html" class="nav-link text-left">Blog</a></li> -->
-<li>
-<a href="contact.html" class="nav-link text-left">Contact</a>
-</li>
-</ul></div>
-</div>
+		<div class="site-mobile-menu site-navbar-target">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div>
 			<div class="header-top bg-light">
 				<div class="container">
-					<div class="row align-items-center" style="margin-bottom: 20px;
-					">
+					<div class="row align-items-center" >
 					<div class="col-6 col-lg-3">
 						<a href="index.html">
 							<img src="images/logo.png" alt="Image" width="45%;" class="img-fluid">
@@ -60,7 +41,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-placeholder text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -72,7 +53,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-call text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -83,11 +64,11 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-email text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
-								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color: rgb(146, 140, 140);">info@ambikagroup.co.in</a></span>
+								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color:black;">info@ambikagroup.co.in</a></span>
 								<span class="caption-text" style="color: rgb(146, 140, 140);">Email Address</span>
 							</div>
 						</div>
@@ -102,22 +83,18 @@
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
 							<nav class="site-navigation position-relative text-right" role="navigation">
-								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block" style="padding-left: 600px!important; margin-right: 0!important;">
-									<li class="active">
+								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+									<li>
 										<a href="index.html" class="nav-link text-left">Home</a>
 									</li>
 									<li>
-										<a href="about.html" class="nav-link text-left">About Us</a>
+										<a href="about.php" class="nav-link text-left">About Us</a>
+									</li>
+									<li class="active">
+										<a href="products.php" class="nav-link text-left">Our Products</a>
 									</li>
 									<li>
-										<a href="products.html" class="nav-link text-left">Our Projects</a>
-									</li>
-									<li>
-										<!-- <a href="#" class="nav-link text-left">Testimonials</a> -->
-									</li>
-									<!-- <li><a href="#" class="nav-link text-left">Blog</a></li> -->
-									<li>
-										<a href="contact.html" class="nav-link text-left">Contact</a>
+										<a href="contact.php" class="nav-link text-left">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -133,14 +110,12 @@
 
 					<ul class="breadcrumbs-custom-path">
 						<h3>Single Product</h3>
-						<!-- <li><a href="index.html">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-						<li class="active">Single</li> -->
+						
 					</ul>
 				</div>
 			</div>
 		</section>
-		<!-- //covers -->
-		<!--content-with-photo-3 -->
+		
 		<section class="w3l-content-with-photo-3">
 			<div class="customers3 top-bottom">
 				<div class="wrapper">
@@ -242,7 +217,7 @@
 						<!-- <li><a href="#"></a></li> -->
 						<li><a href="#" style="color: #908888;font-weight:500;">Our Team</a></li>
 						<li><a href="#" style="color: #908888;font-weight:500;">Careers</a></li>
-						<li><a href="#" style="color: #908888;font-weight:500;">Projects</a></li>
+						<li><a href="#" style="color: #908888;font-weight:500;">Products</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3" style="text-align: center;">
@@ -300,5 +275,4 @@
 </script>
 <script src="js/rocket-loader.min.js" data-cf-settings="73c04d5686f1145b1728425b-|49" defer=""></script></body>
 
-<!-- Mirrored from colorlib.com/preview/theme/engineers/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Aug 2020 05:15:46 GMT -->
 </html>

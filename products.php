@@ -46,41 +46,26 @@
 	</head>
 	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 		<div class="site-wrap">
-<div class="site-mobile-menu site-navbar-target">
-<div class="site-mobile-menu-header">
-<div class="site-mobile-menu-close mt-3">
-<span class="icon-close2 js-menu-toggle"></span>
-</div>
-</div>
-<div class="site-mobile-menu-body"><ul class="site-nav-wrap">
-<li>
-<a href="index.html" class="nav-link text-left">Home</a>
-</li>
-<li>
-<a href="about.html" class="nav-link text-left">About Us</a>
- </li>
-<li class="active">
-<a href="products.html" class="nav-link text-left">Our Projects</a>
-</li>
-<li>
-</li>
-<li>
-<a href="contact.html" class="nav-link text-left">Contact</a>
-</li>
-</div>
-</div>
+	<div class="site-mobile-menu site-navbar-target">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div>
 			<div class="header-top bg-light">
 				<div class="container">
-					<div class="row align-items-center" style="margin-bottom: 20px;
-					">
+					<div class="row align-items-center";
+					>
 					<div class="col-6 col-lg-3">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="images/logo.png" alt="Image" width="45%;" class="img-fluid">
 						</a>
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-placeholder text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -92,7 +77,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-call text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -103,11 +88,11 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-email text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
-								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color: rgb(146, 140, 140);">info@ambikagroup.co.in</a></span>
+								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color:black;">info@ambikagroup.co.in</a></span>
 								<span class="caption-text" style="color: rgb(146, 140, 140);">Email Address</span>
 							</div>
 						</div>
@@ -122,20 +107,18 @@
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
 							<nav class="site-navigation position-relative text-right" role="navigation">
-								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block" style="padding-left: 600px!important; margin-right: 0!important;">
-									<li >
-										<a href="index.html" class="nav-link text-left">Home</a>
+								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+									<li>
+										<a href="index.php" class="nav-link text-left">Home</a>
 									</li>
 									<li>
-										<a href="about.html" class="nav-link text-left">About Us</a>
+										<a href="about.php" class="nav-link text-left">About Us</a>
 									</li>
 									<li class="active">
-										<a href="products.html" class="nav-link text-left">Our Projects</a>
+										<a href="products.php" class="nav-link text-left">Our Products</a>
 									</li>
 									<li>
-									</li>
-									<li>
-										<a href="contact.html" class="nav-link text-left">Contact</a>
+										<a href="contact.php" class="nav-link text-left">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -144,15 +127,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/product.jpg');">
+		<div class="intro-section site-blocks-cover innerpage" style="background-image: url('images/product.jpg'); opacity: 0.9;">
 			<div class="container">
 				<div class="row align-items-center text-center border">
 					<div class="col-lg-12 mt-5" data-aos="fade-up">
-						<h1>Our Projects</h1>
+						<h1>Our Products</h1>
 						<p class="text-white text-center">
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 							<span class="mx-2">/</span>
-							<span>Projects</span>
+							<span>Products</span>
 						</p>
 					</div>
 				</div>
@@ -162,11 +145,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -175,11 +158,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -188,11 +171,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -201,11 +184,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -214,11 +197,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -227,11 +210,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -240,11 +223,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -253,11 +236,11 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4">
-						<div class="project-item">
-							<div class="project-item-contents">
-								<a href="product_single.html">
-									<span class="project-item-category">Factory</span>
-									<h2 class="project-item-title">
+						<div class="Products-item">
+							<div class="Products-item-contents">
+								<a href="product_single.php">
+									<span class="Products-item-category">Factory</span>
+									<h2 class="Products-item-title">
 										Ambika Product
 									</h2>
 								</a>
@@ -283,7 +266,7 @@
 						<li><a href="#" style="color: #908888;font-weight:500;">News</a></li>
 						<li><a href="#" style="color: #908888;font-weight:500;">Our Team</a></li>
 						<li><a href="#" style="color: #908888;font-weight:500;">Careers</a></li>
-						<li><a href="#" style="color: #908888;font-weight:500;">Projects</a></li>
+						<li><a href="#" style="color: #908888;font-weight:500;">Products</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3" style="text-align: center;">

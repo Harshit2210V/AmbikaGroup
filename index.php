@@ -22,40 +22,25 @@
 	</head>
 	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 		<div class="site-wrap">
-<div class="site-mobile-menu site-navbar-target">
-<div class="site-mobile-menu-header">
-<div class="site-mobile-menu-close mt-3">
-<span class="icon-close2 js-menu-toggle"></span>
-</div>
-</div>
-<div class="site-mobile-menu-body"><ul class="site-nav-wrap">
-<li class="active">
-<a href="index.html" class="nav-link text-left">Home</a>
-</li>
-<li>
-<a href="about.html" class="nav-link text-left">About Us</a>
- </li>
-<li>
-<a href="products.html" class="nav-link text-left">Our Projects</a>
-</li>
-<li>
-</li>
-<li>
-<a href="contact.html" class="nav-link text-left">Contact</a>
-</li>
-</div>
-</div>			<div class="header-top bg-light">
-				<div class="container">
-					<div class="row align-items-center" style="margin-bottom: 20px;
-					">
+	<div class="site-mobile-menu site-navbar-target">
+			<div class="site-mobile-menu-header">
+				<div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				</div>
+			</div>
+			<div class="site-mobile-menu-body"></div>
+		</div>
+			<div class="header-top bg-light">
+			<div class="container">
+				<div class="row align-items-center">
 					<div class="col-6 col-lg-3">
-						<a href="index.html">
-							<img src="images/logo.png" alt="Image" width="45%;" class="img-fluid">
+						<a href="index.php">
+							<img src="images/logo.png" alt="Image" class="img-fluid" width="42%;">
 						</a>
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-placeholder text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -67,7 +52,7 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex" style="color: rgb(146, 140, 140);">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-call text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
@@ -78,11 +63,11 @@
 					</div>
 					<div class="col-lg-3 d-none d-lg-block">
 						<div class="quick-contact-icons d-flex">
-							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 7px">
+							<div class="icon align-self-start" style="margin-right: 10px;font-size: 35px; margin-top: 3px">
 								<span class="flaticon-email text-primary" style="color: #2700ff!important;"></span>
 							</div>
 							<div class="text">
-								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color: rgb(146, 140, 140);">info@ambikagroup.co.in</a></span>
+								<span class="h4 d-block"><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b42454d446b4c464a424705484446" style="color:black;">info@ambikagroup.co.in</a></span>
 								<span class="caption-text" style="color: rgb(146, 140, 140);">Email Address</span>
 							</div>
 						</div>
@@ -97,20 +82,19 @@
 					<div class="d-flex align-items-center">
 						<div class="mr-auto">
 							<nav class="site-navigation position-relative text-right" role="navigation">
-								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block" style="padding-left: 600px!important; margin-right: 0!important;">
+								<ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
 									<li class="active">
-										<a href="index.html" class="nav-link text-left">Home</a>
+										<a href="index.php" class="nav-link text-left">Home</a>
+									</li>
+									<li >
+										<a href="about.php" class="nav-link text-left">About Us</a>
 									</li>
 									<li>
-										<a href="about.html" class="nav-link text-left">About Us</a>
+										<a href="products.php" class="nav-link text-left">Our Products</a>
 									</li>
-									<li>
-										<a href="products.html" class="nav-link text-left">Our Products</a>
-									</li>
-									<li>
-									</li>
-									<li>
-										<a href="contact.html" class="nav-link text-left">Contact</a>
+
+									<li  >
+										<a href="contact.php" class="nav-link text-left">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -118,9 +102,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>	
 		<div class="hero-slide owl-carousel site-blocks-cover">
-			<div class="intro-section" style="background-image: url('images/Slider_1.jpg');">
+			<div class="intro-section" style="background-image: url('images/Slider_1.jpg'); opacity: 0.9;">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -140,7 +124,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="site-section RG3s-1-wrap">
 			<div class="container">
 				<div class="row mb-5 justify-content-center text-center">
@@ -164,7 +147,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="RG3-1">
-							<span cla$ git config --global user.email "you@example.com"ss="number">02</span>
+							<span class="number">02</span>
 							<div class="RG3-1-icon">
 								<span class="flaticon-compass"></span>
 							</div>
@@ -202,49 +185,60 @@
 			</div>
 		</div>
 
-	
-
-
-
-
-
 <div class="site-section block-3">
 	<div class="container">
 		<div class="mb-5">
 			<h3 class="section-subtitle">About our company</h3>
 			<p style="color:black; line-height: 30px; font-weight: 600;" >We are leading manufacturers and exporters of corrugative adhesives & modified starches at Vapi & Pardi Gujarat, India since 1999. We have most modern manufacturing facility with experts in starch based adhesives technology. Presently we are supplying to many automatic and naneal corrugated plants in India and abroad as well.</p>
 		</div>
-		<div class="projects-carousel-wrap">
+		<div class="Products-carousel-wrap">
 			<div class="owl-carousel owl-slide-3">
 				<div class="project-item">
 					<div class="project-item-contents">
 
 					</div>
-					<img src="images/work_1.jpg" alt="Image" class="img-fluid">
+					<img onclick="myFunction1()" src="images/work_1.jpg" alt="Image" class="img-fluid">
 				</div>
 				<div class="project-item">
 					<div class="project-item-contents">
 
 					</div>
-					<img src="images/work_2.jpg" alt="Image" class="img-fluid">
+					<img onclick="myFunction1()" src="images/work_2.jpg" alt="Image" class="img-fluid">
 				</div>
 				<div class="project-item">
 					<div class="project-item-contents">
 
 					</div>
-					<img src="images/products_3.jpg" alt="Image" class="img-fluid">
+					<img onclick="myFunction1()" src="images/work_1.jpg" alt="Image" class="img-fluid">
 				</div>
 				<div class="project-item">
 					<div class="project-item-contents">
 
 					</div>
-					<img src="images/products_4.jpg" alt="Image" class="img-fluid">
+					<img onclick="myFunction1()" src="images/work_2.jpg" alt="Image" class="img-fluid">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
+<div class="container row ml-auto mr-auto" id="myDIV1" style="display: none;">
+	<div class="col-md-3">
+		<img src="images/slider_2.jpg" width="100%">
+	</div>
+	<div class="col-md-3">
+		<img src="images/slider_2.jpg" width="100%">
+
+	</div>
+	<div class="col-md-3">
+		<img src="images/slider_2.jpg" width="100%">
+
+	</div>
+	<div class="col-md-3">
+		<img src="images/slider_2.jpg" width="100%">
+
+	</div>
+</div>
 
 
 <div class="footer">
@@ -262,7 +256,7 @@
 					<li><a href="#" style="color: #908888;font-weight:500;">News</a></li>
 					<li><a href="#" style="color: #908888;font-weight:500;">Our Team</a></li>
 					<li><a href="#" style="color: #908888;font-weight:500;">Careers</a></li>
-					<li><a href="#" style="color: #908888;font-weight:500;">Projects</a></li>
+					<li><a href="#" style="color: #908888;font-weight:500;">Products</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-3" style="text-align: center;">
@@ -320,6 +314,18 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-23581568-13');
+</script>
+
+<script type="text/javascript">
+	function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 </script>
 <script src="js/rocket-loader.min.js" data-cf-settings="73c04d5686f1145b1728425b-|49" defer=""></script></body>
 
