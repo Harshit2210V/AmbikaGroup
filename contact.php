@@ -1,11 +1,9 @@
 <?php
-
-$msg ="";
-
+$msg = "";
 if (isset($_REQUEST['submit'])) {
 
 	if (($_REQUEST['fname'] == "") || ($_REQUEST['lname'] == "") || ($_REQUEST['email'] == "") || ($_REQUEST['mono'] == "") || ($_REQUEST['message'] == "")){
-		$msg = "fill all fileds";
+		$msg =  "<p class='alert alert-danger pt-1 pb-1'>"."Please fill all filds"."</p>";
 	}
 	else{
 		$fname = $_REQUEST['fname'];
@@ -14,11 +12,11 @@ if (isset($_REQUEST['submit'])) {
 		$mono = $_REQUEST['mono'];
 		$message = $_REQUEST['message'];
 
-		$mailTo = "harshmavani76@gmail.com";
+		$mailTo = "harshit.work2210@gmail.com";
 		$headers ="From: ". $email;
 		$txt ="you have received an email from ". $fname. $lname.".\n". "$mono". "$message";
 		mail($mailTo, $fname, $txt ,$headers); 
-		$msg = "sent Successfully";
+		$msg = "<p class='alert alert-success pt-1 pb-1'>"."Sent sucessfully"."</p>";
 	}
 }
 ?>
@@ -145,7 +143,12 @@ if (isset($_REQUEST['submit'])) {
 		</div>
 		<div class="site-section">
 			<div class="container">
-				<form  method="post">
+<!-- 				<form class=" " method="post" >
+					<input type="text" name="expriment">
+<input type="submit" name="submit">
+				</form>
+ -->
+				<form action=""  method="POST">
 					<div class="row">
 						<div class="col-md-6 form-group">
 							<label for="fname">First Name</label>
@@ -158,11 +161,11 @@ if (isset($_REQUEST['submit'])) {
 					</div>
 					<div class="row">
 						<div class="col-md-6 form-group">
-							<label for="eaddress">Email Address</label>
+							<label for="email">Email Address</label>
 							<input type="text" id="emial" name="email"  class="form-control form-control-lg">
 						</div>
 						<div class="col-md-6 form-group">
-							<label for="tel">Mobile Number</label>
+							<label for="mono">Mobile Number</label>
 							<input type="text" id="mono" name="mono" class="form-control form-control-lg">
 						</div>
 					</div>
@@ -172,13 +175,14 @@ if (isset($_REQUEST['submit'])) {
 							<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
 						</div>
 					</div>
+										<?php echo $msg ; ?>
+
 					<div class="row">
 						<div class="col-12">
-							<input type="submit" value="Send Message" class="btn btn-primary rounded-0 px-3 px-5" style="    background-color: #1e4f94;
+							<input type="submit" name="submit" value="Send Message" class="btn btn-primary rounded-0 px-3 px-5" style="background-color: #1e4f94;
 							border-color: #1e4f94;">
 						</div>
 					</div>
-					<?php echo $msg ; ?>
 				</form>
 			</div>
 		</div>
